@@ -79,14 +79,20 @@
         app:layout_constraintBottom_toTopOf="@+id/ll_account"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_photo">
+        app:layout_constraintTop_toBottomOf="@+id/tv_photo"
+        >
 
         <LinearLayout
             android:id="@+id/ll_cart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:orientation="vertical"
+            android:divider="@drawable/shape"
+            android:showDividers="middle"
+            />
+
     </ScrollView>
+
 
     <LinearLayout
         android:id="@+id/ll_account"
@@ -157,7 +163,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
-        android:text="逛逛温作豪的百货商场"
+        android:text="逛逛王泉皓的百货商场"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
